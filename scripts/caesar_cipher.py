@@ -1,25 +1,38 @@
+"""Interactive Caesar cipher for the English A-Z alphabet."""
 
-def caesar_cipher(text, shift):
-    result = ""
 
+def caesar_cipher(text: str, shift: int) -> str:
+    """Shift ASCII English letters; leave other characters unchanged."""
+    if not isinstance(text, str):
+        raise TypeError("text must be a string")
+    if not isinstance(shift, int) or isinstance(shift, bool):
+        raise TypeError("shift must be an integer")
+
+    result = []
     for char in text:
-        if char.isalpha():
-            base = ord('A') if char.isupper() else ord('a')
-            shifted = (ord(char) - base + shift) % 26
-            result += chr(base + shifted)
+        if "A" <= char <= "Z":
+            base = ord("A")
+        elif "a" <= char <= "z":
+            base = ord("a")
         else:
-            result += char
+            result.append(char)
+            continue
+        result.append(chr((ord(char) - base + shift) % 26 + base))
+    return "".join(result)
 
-    return result
+
+def main() -> None:
+    print("=== Caesar Cipher Tool ===")
+    message = input("Enter your message: ")
+    try:
+        shift = int(input("Enter integer shift value: "))
+    except ValueError as exc:
+        raise SystemExit("Error: shift must be an integer.") from exc
+
+    encrypted = caesar_cipher(message, shift)
+    print(f"\nEncrypted message: {encrypted}")
+    print(f"Decrypted message: {caesar_cipher(encrypted, -shift)}")
 
 
-print("=== Caesar Cipher Tool ===")
-
-message = input("Enter your message: ")
-shift = int(input("Enter shift value: "))
-
-encrypted = caesar_cipher(message, shift)
-decrypted = caesar_cipher(encrypted, -shift)
-
-print("\nEncrypted message:", encrypted)
-print("Decrypted message:", decrypted)
+if __name__ == "__main__":
+    main()

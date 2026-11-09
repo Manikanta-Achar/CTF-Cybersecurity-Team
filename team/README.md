@@ -2,27 +2,27 @@
 
 ## CTF Cybersecurity Team
 
-We are engineering students interested in cybersecurity,
-ethical hacking and problem-solving.
+We are engineering students building foundational cybersecurity skills through study and practical, authorized CTF exercises. This repository records learning tools and reusable writeup templates; it does not claim competition placements or completed challenges.
 
-## Team Members
+## Team members
 
-| Name | GitHub Profile |
+| Name | GitHub profile |
 |---|---|
-| Manikanta | https://github.com/Manikanta-Achar |
-| Hithest Narayan A | -- |
-| HemanthKumar H M | -- |
+| Manikanta | [Manikanta-Achar](https://github.com/Manikanta-Achar) |
+| Hithest Narayan A | Not provided |
+| HemanthKumar H M | Not provided |
 
-## Team Interests
+Profile links are listed only when present in the repository information.
 
-- Cryptography
-- Web Exploitation
-- Digital Forensics
-- Network Security
-- OSINT
-- Python Programming
+## Areas of interest
 
-## Team Objective
+- Cryptography fundamentals
+- Web exploitation in authorized labs and CTFs
+- Digital forensics
+- Networking fundamentals
+- Open-source intelligence using public, permitted sources
+- Python programming
 
-To develop practical cybersecurity skills and
-solve Capture The Flag challenges collaboratively.
+## Objective
+
+Learn collaboratively, document genuine problem-solving, and participate responsibly in Capture The Flag competitions.

@@ -1,10 +1,13 @@
 # Networking
 
-This folder contains networking and security practice.
+This category is for foundational network concepts and authorized challenge traffic or lab targets only.
 
 ## Topics
-- IP Addressing
+
+- IP addressing
 - DNS
 - TCP and UDP
-- Network Traffic Analysis
+- Network traffic analysis
 - Wireshark
+
+Start a genuine challenge writeup by copying [TEMPLATE.md](TEMPLATE.md). It is a blank practice template, not a solved challenge.
