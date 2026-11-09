@@ -2,13 +2,27 @@
 
 ## CTF Cybersecurity Team
 
-### Team Members
+We are engineering students interested in cybersecurity,
+ethical hacking and problem-solving.
 
-1. Manikanta
-2. Hithest Narayan A
-3. HemanthKumar H M
+## Team Members
 
-### Objective
+| Name | GitHub Profile |
+|---|---|
+| Manikanta | https://github.com/Manikanta-Achar |
+| Hithest Narayan A | -- |
+| HemanthKumar H M | -- |
 
-To learn cybersecurity, solve CTF challenges,
-and improve our technical problem-solving skills.
+## Team Interests
+
+- Cryptography
+- Web Exploitation
+- Digital Forensics
+- Network Security
+- OSINT
+- Python Programming
+
+## Team Objective
+
+To develop practical cybersecurity skills and
+solve Capture The Flag challenges collaboratively.
